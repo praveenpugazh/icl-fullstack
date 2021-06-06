@@ -1,0 +1,26 @@
+.container {
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.MatchDetails {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.backBtn {
+  width: 10%;
+  padding: 0.6rem 1.2rem;
+  background: #fc5c02;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}

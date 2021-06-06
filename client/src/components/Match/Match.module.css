@@ -1,0 +1,37 @@
+.matchCard {
+  background-color: white;
+  width: 30%;
+  height: 320px;
+  margin: 1.4rem 0rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.matchHeader {
+  background-color: #ccc;
+  margin: 0;
+  padding: 10px;
+}
+.matchDetails {
+  color: steelblue;
+  padding: 10px;
+}
+h2 {
+  margin: 0.7rem 0rem;
+  text-align: center;
+}
+span {
+  display: block;
+  text-align: center;
+}
+p {
+  margin: 0.5rem;
+  color: rgb(99, 99, 99);
+}
+.detailsBtn {
+  width: 30%;
+  background-color: #fc5c02;
+  color: white;
+  border: none;
+  margin: 0.5rem;
+  cursor: pointer;
+}

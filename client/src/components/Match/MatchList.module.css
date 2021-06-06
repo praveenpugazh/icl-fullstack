@@ -1,0 +1,85 @@
+.matchListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+}
+.filterDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin: 2rem auto 0rem;
+}
+/*CUSTOM SELECTOR */
+select,
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
+/* Custom Select */
+.select {
+  width: 20%;
+  margin: auto;
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+  left: 615px;
+}
+
+select {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #ff6f47;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: #ff6f47;
+  cursor: pointer;
+  pointer-events: none;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.searchInput {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #ff6f47;
+  height: 100%;
+}
+.searchSection {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.searchBtn {
+  background-color: #ff6f47;
+  color: white;
+  border: none;
+  width: 20%;
+  cursor: pointer;
+  height: 50.8px;
+}

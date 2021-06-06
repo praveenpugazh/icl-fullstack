@@ -1,0 +1,42 @@
+.navBar {
+  background: rgb(255, 255, 255);
+  min-height: 10vh;
+  display: grid;
+  place-items: center;
+}
+.navContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+}
+.navItems {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  width: 100%;
+  list-style: none;
+  margin-left: 30px;
+}
+.title {
+  margin: 0;
+}
+.signBtn {
+  background-color: #fc5c02;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
